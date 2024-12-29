@@ -1,0 +1,58 @@
+category = 'dress'
+batch_size=16
+clip_lr = 1e-6
+lr=1e-4
+patience = 5
+model_name = 'hf-hub:laion/CLIP-ViT-B-16-laion2B-s34B-b88K'
+pretrained = None
+hidden_dim=512
+dropout = 0.5
+weight_decay = 0.2
+
+Epoch 1: Train Loss = 1.0431
+Epoch 1: Val Loss = 0.9610
+Model saved at /DQU-CIR/results/experiment_2/epoch_1.pt
+Epoch 2: Train Loss = 0.6804
+Epoch 2: Val Loss = 0.8440
+Model saved at /DQU-CIR/results/experiment_2/epoch_2.pt
+Epoch 3: Train Loss = 0.5514
+Epoch 3: Val Loss = 0.7940
+Model saved at /DQU-CIR/results/experiment_2/epoch_3.pt
+Epoch 4: Train Loss = 0.4846
+Epoch 4: Val Loss = 0.7538
+Model saved at /DQU-CIR/results/experiment_2/epoch_4.pt
+Epoch 5: Train Loss = 0.4158
+Epoch 5: Val Loss = 0.7581
+Epoch 6: Train Loss = 0.3735
+Epoch 6: Val Loss = 0.7450
+Model saved at /DQU-CIR/results/experiment_2/epoch_6.pt
+Epoch 7: Train Loss = 0.3260
+Epoch 7: Val Loss = 0.7343
+Model saved at /DQU-CIR/results/experiment_2/epoch_7.pt
+Epoch 8: Train Loss = 0.3003
+Epoch 8: Val Loss = 0.7220
+Model saved at /DQU-CIR/results/experiment_2/epoch_8.pt
+Epoch 9: Train Loss = 0.2725
+Epoch 9: Val Loss = 0.7442
+Epoch 10: Train Loss = 0.2453
+Epoch 10: Val Loss = 0.7371
+Epoch 11: Train Loss = 0.2262
+Epoch 11: Val Loss = 0.7183
+Model saved at /DQU-CIR/results/experiment_2/epoch_11.pt
+Epoch 12: Train Loss = 0.2077
+Epoch 12: Val Loss = 0.7395
+Epoch 13: Train Loss = 0.1883
+Epoch 13: Val Loss = 0.7406
+Epoch 14: Train Loss = 0.1791
+Epoch 14: Val Loss = 0.7412
+Epoch 15: Train Loss = 0.1705
+Epoch 15: Val Loss = 0.7394
+Epoch 16: Train Loss = 0.1560
+Epoch 16: Val Loss = 0.7454
+Early stopping at epoch 16
+Training completed. Best Loss = 0.7183 at epoch 11
+
+Mean Reciprocal Rank (MRR): 0.1401
+R@1 = 7.746100053792361
+R@10 = 26.519634211941906
+R@50 = 46.476600322754166

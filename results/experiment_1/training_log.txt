@@ -1,0 +1,10 @@
+Epoch 1: Train Loss = 0.0931
+Epoch 1: Val Loss = 0.1219
+Model saved at /DQU-CIR/results/experiment_1/epoch_1.pt
+Epoch 2: Train Loss = 0.0489
+Epoch 2: Val Loss = 0.1163
+Model saved at /DQU-CIR/results/experiment_1/epoch_2.pt
+Epoch 3: Train Loss = 0.0430
+Epoch 3: Val Loss = 0.1188
+Epoch 4: Train Loss = 0.0394
+Epoch 4: Val Loss = 0.1230
