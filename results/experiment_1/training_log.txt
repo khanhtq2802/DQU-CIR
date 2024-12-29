@@ -1,3 +1,18 @@
+cirr_path = '/DQU-CIR/data/CIRR'
+captions_path = '/DQU-CIR/data/CIRR/cirr/captions'
+image_splits_path = '/DQU-CIR/data/CIRR/cirr/image_splits'
+batch_size=8
+clip_lr = 1e-6
+lr=1e-4
+patience = 5
+# model_name = 'hf-hub:laion/CLIP-ViT-B-16-laion2B-s34B-b88K'
+model_name = 'hf-hub:laion/CLIP-ViT-L-14-laion2B-s32B-b82K'
+pretrained = None
+# hidden_dim=512
+hidden_dim=768
+dropout = 0.5
+weight_decay = 0.2
+
 Epoch 1: Train Loss = 0.0931
 Epoch 1: Val Loss = 0.1219
 Model saved at /DQU-CIR/results/experiment_1/epoch_1.pt
@@ -8,3 +23,16 @@ Epoch 3: Train Loss = 0.0430
 Epoch 3: Val Loss = 0.1188
 Epoch 4: Train Loss = 0.0394
 Epoch 4: Val Loss = 0.1230
+Epoch 5: Train Loss = 0.0385
+Epoch 5: Val Loss = 0.1177
+Epoch 6: Train Loss = 0.0386
+Epoch 6: Val Loss = 0.1267
+Epoch 7: Train Loss = 0.0379
+Epoch 7: Val Loss = 0.1411
+Early stopping at epoch 7
+Training completed. Best Loss = 0.1163 at epoch 2
+
+Mean Reciprocal Rank (MRR): 0.4309
+R@1 = 29.77756517579526
+R@10 = 70.58120066969624
+R@50 = 91.1504424778761
